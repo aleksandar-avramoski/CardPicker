@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2em;
+}
+
+#collection-cards1,
+#collection-cards2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+} 
+
+#collection-cards2 {
+    margin-top: 5em;
+}
+
+#card {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    transition: all 500ms;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card:hover,
+#card:focus {
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 1.5em;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
